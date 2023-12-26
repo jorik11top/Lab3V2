@@ -3,19 +3,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".adapter.MainActivity">
+    tools:context=".ui.MainActivity">
 
     <EditText
-        android:id="@+id/searchEditText"
+        android:id="@+id/etKeyword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter keywords"/>
+        android:hint="Enter keyword"/>
 
     <Button
-        android:id="@+id/searchButton"
+        android:id="@+id/btnSearch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/searchEditText"
+        android:layout_below="@id/etKeyword"
         android:layout_marginTop="16dp"
         android:text="Search"/>
 
@@ -23,7 +23,6 @@
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/searchButton"
-        android:padding="16dp" />
-
+        android:layout_below="@id/btnSearch"
+        android:layout_marginTop="16dp"/>
 </RelativeLayout>

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Lab3V2</string>
+    <string name="enter_keyword">Enter keyword</string>
+    <string name="search">Search</string>
 </resources>
